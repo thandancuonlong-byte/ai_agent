@@ -2,6 +2,8 @@ class TaskPlanner:
 
     def create_plan(self, thought):
 
-        print("Planning from thought:", thought)
+        print("Creating plan from thought:", thought)
 
-        return ["step1", "step2"]
+        plan = ["move_mouse", "click_button"]
+
+        return plan
