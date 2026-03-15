@@ -2,7 +2,6 @@ class LLMBrain:
 
     def think(self, observation):
 
-        # simple reasoning placeholder
-        print("Thinking about:", observation)
+        print("Thinking about screen")
 
-        return "dummy_plan"
+        return "click something"
