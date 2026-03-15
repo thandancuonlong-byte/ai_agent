@@ -1,0 +1,47 @@
+ai_agent/
+│
+├── README.md
+├── requirements.txt
+├── main.py
+│
+├── core/
+│   ├── agent_core.py
+│   └── task_orchestrator.py
+│
+├── perception/
+│   ├── screen_capture.py
+│   └── ui_graph_engine.py
+│
+├── reasoning/
+│   ├── llm_brain.py
+│   └── thought_tree.py
+│
+├── world_model/
+│   ├── environment_state.py
+│   └── desktop_graph.py
+│
+├── planning/
+│   ├── task_planner.py
+│   └── plan_search.py
+│
+├── tools/
+│   ├── system_tools.py
+│   ├── file_tools.py
+│   ├── web_tools.py
+│   └── code_tools.py
+│
+├── executor/
+│   ├── action_executor.py
+│   ├── mouse_controller.py
+│   └── keyboard_controller.py
+│
+├── memory/
+│   ├── episodic_memory.py
+│   └── skill_memory.py
+│
+├── learning/
+│   ├── skill_extractor.py
+│   └── tool_builder.py
+│
+└── reflection/
+    └── reflection_engine.py
